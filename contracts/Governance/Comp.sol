@@ -3,16 +3,16 @@ pragma experimental ABIEncoderV2;
 
 contract Comp {
     /// @notice EIP-20 token name for this token
-    string public constant name = "Omni COMP Governance Token";
+    string public constant name = "Omni Shorts";
 
     /// @notice EIP-20 token symbol for this token
-    string public constant symbol = "OMNIC";
+    string public constant symbol = "OMNIS";
 
     /// @notice EIP-20 token decimals for this token
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint public constant totalSupply = 100000000e18; // 100 million OMNIC
+    uint public constant totalSupply = 100000000e18; // 100 million OMNIS
 
     /// @notice Allowance amounts on behalf of others
     mapping (address => mapping (address => uint96)) internal allowances;
