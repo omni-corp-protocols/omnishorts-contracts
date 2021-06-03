@@ -9,6 +9,7 @@
     "coverage": "./script/coverage",
     "deploy": "./scenario/script/repl -s ./script/scen/deploy.scen",
     "deploy-gov-token": "./scenario/script/repl -s ./script/scen/deploy-gov-token.scen",
+    "deploy-governance": "./scenario/script/repl -s ./script/scen/deploy-governance.scen",
     "lint": "./script/lint",
     "repl": "./scenario/script/repl",
     "profile": "yarn test tests/gasProfiler.js",

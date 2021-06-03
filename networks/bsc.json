@@ -1,19 +1,27 @@
 {
     "Contracts": {
-        "Comp": "0x10826e17f9Fa5b5606792c9954b4a36193782b2d",
-        "Unitroller": "0xe8B8F62811F2F9E613185BB4d80DC3989ADaF55D",
         "PriceOracle": "0x7382F2963DF0C1B6fA3eE1E93AA1986a0128c688",
-        "Comptroller": "0xe8B8F62811F2F9E613185BB4d80DC3989ADaF55D",
+        "GovernorBravoDelegateNew1": "0x9311d63388Ca4b5FcC7c4b101773aa4dE54340d0",
+        "WhitePaperInterestRateModel_1_40": "0xfA006494b742633fb1a6619806299C49E2B9f7A3",
         "WhitePaperInterestRateModel_2_30": "0xC6F8Cbb15338fCC9F45DB14bC8DB342d4f1f6f23",
-        "WhitePaperInterestRateModel_1_40": "0xfA006494b742633fb1a6619806299C49E2B9f7A3"
+        "Unitroller": "0xe8B8F62811F2F9E613185BB4d80DC3989ADaF55D",
+        "GovernorBravoDelegator": "0x25c6B08d56C18c3574c129c5683e2922e1E3aACd",
+        "Comptroller": "0xe8B8F62811F2F9E613185BB4d80DC3989ADaF55D",
+        "Comp": "0x10826e17f9Fa5b5606792c9954b4a36193782b2d",
+        "Timelock": "0x8D322EFfFeFA17bBa23008AF840eb44B8EE2580f",
+        "GovernorBravoDelegate": "0x03283C383464EddCfbC94b8Fef0C8FD549d38252"
     },
     "Blocks": {
-        "Comp": 7513174,
-        "Unitroller": 7514161,
         "PriceOracle": 7514164,
-        "Comptroller": 7514166,
+        "GovernorBravoDelegateNew1": 7877034,
+        "WhitePaperInterestRateModel_1_40": 7514292,
         "WhitePaperInterestRateModel_2_30": 7514178,
-        "WhitePaperInterestRateModel_1_40": 7514292
+        "Unitroller": 7514161,
+        "GovernorBravoDelegator": 7790509,
+        "Comptroller": 7514166,
+        "Comp": 7513174,
+        "Timelock": 7790502,
+        "GovernorBravoDelegate": 7790507
     },
     "PriceOracle": {
         "description": "Price oracle by OpenDAO",
@@ -37,13 +45,39 @@
         "decimals": 18,
         "address": "0x10826e17f9Fa5b5606792c9954b4a36193782b2d"
     },
+    "Governor": {
+        "GovernorBravoDelegate": {
+            "name": "GovernorBravoDelegate",
+            "contract": "GovernorBravoDelegate",
+            "address": "0x03283C383464EddCfbC94b8Fef0C8FD549d38252"
+        },
+        "GovernorBravoDelegator": {
+            "name": "GovernorBravoDelegator",
+            "contract": "GovernorBravoDelegator",
+            "address": "0x25c6B08d56C18c3574c129c5683e2922e1E3aACd"
+        },
+        "GovernorBravoDelegateNew1": {
+            "name": "GovernorBravoDelegateNew1",
+            "contract": "GovernorBravoDelegate",
+            "address": "0x9311d63388Ca4b5FcC7c4b101773aa4dE54340d0"
+        }
+    },
+    "Timelock": {
+        "address": "0x8D322EFfFeFA17bBa23008AF840eb44B8EE2580f",
+        "contract": "Timelock",
+        "description": "Standard Timelock"
+    },
     "Constructors": {
-        "Comp": "0x000000000000000000000000c555a2d30ea82d2644a32ade3ab404f7f98c035d",
-        "Unitroller": "0x",
         "PriceOracle": "0x000000000000000000000000e8b8f62811f2f9e613185bb4d80dc3989adaf55d",
-        "Comptroller": "0x",
+        "GovernorBravoDelegateNew1": "0x",
+        "WhitePaperInterestRateModel_1_40": "0x000000000000000000000000000000000000000000000000002386f26fc10000000000000000000000000000000000000000000000000000058d15e176280000",
         "WhitePaperInterestRateModel_2_30": "0x00000000000000000000000000000000000000000000000000470de4df8200000000000000000000000000000000000000000000000000000429d069189e0000",
-        "WhitePaperInterestRateModel_1_40": "0x000000000000000000000000000000000000000000000000002386f26fc10000000000000000000000000000000000000000000000000000058d15e176280000"
+        "Unitroller": "0x",
+        "GovernorBravoDelegator": "0x0000000000000000000000008d322efffefa17bba23008af840eb44b8ee2580f00000000000000000000000010826e17f9fa5b5606792c9954b4a36193782b2d000000000000000000000000c555a2d30ea82d2644a32ade3ab404f7f98c035d00000000000000000000000003283c383464eddcfbc94b8fef0c8fd549d382520000000000000000000000000000000000000000000000000000000000000028000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000152d02c7e14af6800000",
+        "Comptroller": "0x",
+        "Comp": "0x000000000000000000000000c555a2d30ea82d2644a32ade3ab404f7f98c035d",
+        "Timelock": "0x000000000000000000000000c555a2d30ea82d2644a32ade3ab404f7f98c035d000000000000000000000000000000000000000000000000000000000000012c",
+        "GovernorBravoDelegate": "0x"
     },
     "Tokens": {
         "COMP": {
